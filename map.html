@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Bio Data Form</title>
+	<link rel="stylesheet" href="ab.css">
+</head>
+<body>
+	<h1>Student Bio Data Form</h1>
+	<form id="student-form">
+		<label for="name">Enter student name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="address">Enter student address:</label>
+		<input type="text" id="address" name="address"><br><br>
+		<label for="age">Enter student age:</label>
+		<input type="number" id="age" name="age"><br><br>
+		<label for="gender">Enter student gender (Male/Female):</label>
+		<input type="text" id="gender" name="gender"><br><br>
+		<label for="date_of_birth">Enter student date of birth (DD/MM/YYYY):</label>
+		<input type="date" id="date_of_birth" name="date_of_birth"><br><br>
+		<label for="phone_no">Enter student phone_no:</label>
+		<input type="tel" id="phone_no" name="phone_no"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+	
+	<div id="output">
+		<p id="student-name"></p>
+		<p id="student-address"></p>
+		<p id="student-age"></p>
+		<p id="student-gender"></p>
+		<p id="student-date-of-birth"></p>
+		<p id="student-phone-no"></p>
+	</div>
+	
+	<script src="ba.js"></script>
+</body>
+</html>
